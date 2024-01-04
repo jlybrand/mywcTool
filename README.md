@@ -10,7 +10,7 @@
 sudo ln -s "$(pwd)/mywc.py" /usr/local/bin/mywc
 ```
 
-This command creates a symbolic link named mywc in the /usr/local/bin/ directory.
+This command creates a symbolic link named mywc in the /usr/local/bin/ directory. This directory is typically in your system's PATH.
 
 Now, you should be able to run the script as mywc from any directory.
 
