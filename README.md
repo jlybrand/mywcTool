@@ -2,9 +2,9 @@
 
 #### Tool that emulates the Unix command line tool wc
 
-Clone repo
+- Clone repo
 
-From within repo directory run the following
+- From within repo directory run the following
 
 ```
 sudo ln -s "$(pwd)/mywc.py" /usr/local/bin/mywc
