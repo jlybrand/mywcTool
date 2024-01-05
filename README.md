@@ -17,41 +17,55 @@ Now, you should be able to run the script as mywc from any directory.
 ### To output the number of bytes in a given file run:
 
 ```
-mywc -c <path-to-target-file>
+mywc -c <target-file>
 ```
 
 ### To output the number of lines in a given file run:
 
 ```
-mywc -l <path-to-target-file>
+mywc -l <target-file>
 ```
 
 ### To output the number of words in a given file run:
 
 ```
-mywc -w <path-to-target-file>
+mywc -w <target-file>
 ```
 
 ### To output the number of characters in a given file run:
 
 ```
-mywc -m <path-to-target-file>
+mywc -m <target-file>
 ```
 
 ### To output the number of bytes and lines in a given file run:
 
 ```
-mywc -c -l <path-to-target-file>
+mywc -c -l <target-file>
 ```
 
 ### To output the number of bytes, lines, and words in a given file run:
 
 ```
-mywc -c -l -w <path-to-target-file>
+mywc -c -l -w <target-file>
 ```
 
 or simply
 
 ```
-mywc <path-to-target-file>
+mywc <target-file>
+```
+
+### To read from standard input:
+
+```
+cat <target-file> | mywc
+```
+
+You can pass any of the flags to return what you want to output:
+
+For example:
+
+```
+cat <target-file> | mywc -c
 ```
