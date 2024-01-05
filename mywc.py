@@ -16,7 +16,7 @@ def count_chars(file_content):
     return len(file_content.decode("utf-8"))       
 
 def main():
-    parser = argparse.ArgumentParser(description="Byte count tool (mywc)")
+    parser = argparse.ArgumentParser(description="Byte, Line, Word, and Character count tool (mywc)")
     parser.add_argument("file", nargs="?", help="Path to the file for byte count")
     parser.add_argument("-c", "--bytes", action="store_true", help="Print the byte count")
     parser.add_argument("-l", "--lines", action="store_true", help="Print line count")
