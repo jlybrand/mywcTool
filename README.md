@@ -1,6 +1,6 @@
 ## mywc
 
-#### Tool that emulates the Unix command line tool wc
+#### A tool that emulates the Unix command line utility wc
 
 - Clone repo
 
@@ -18,4 +18,40 @@ Now, you should be able to run the script as mywc from any directory.
 
 ```
 mywc -c <path-to-target-file>
+```
+
+### To output the number of lines in a given file run:
+
+```
+mywc -l <path-to-target-file>
+```
+
+### To output the number of words in a given file run:
+
+```
+mywc -w <path-to-target-file>
+```
+
+### To output the number of characters in a given file run:
+
+```
+mywc -m <path-to-target-file>
+```
+
+### To output the number of bytes and lines in a given file run:
+
+```
+mywc -c -l <path-to-target-file>
+```
+
+### To output the number of bytes, lines, and words in a given file run:
+
+```
+mywc -c -l -w <path-to-target-file>
+```
+
+or simply
+
+```
+mywc <path-to-target-file>
 ```
